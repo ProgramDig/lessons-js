@@ -1,83 +1,50 @@
-// const numbers = [1, 2, 3, 4, 5]
+// Об'єктів
+//
+//
+// const login = () => {
+//     this.isLogin = true
+//     console.log(`${name} зайшов в програму!`)
+// }
+//
+//
+// const user = {
+//     "id": 10,
+//     name: "Алекс",
+//     age: 30,
+//     car: {
+//         color: "red",
+//         brand: "BMW",
+//         price: 4000
+//     },
+//     "is login": false,
+//     login: login,
+//     "phone list": [
+//         "932402934032",
+//         "394023940349",
+//         "429034930494"
+//     ],
+//     lastName: "Шевченко",
+//     email: "alex@gmail.com",
+//     "key": "sfd",
+//     "const": "const"
+// }
+//
+//
+//
+// // const inputValue = prompt('Введи id', "id")
+//
+// // console.log("key" in user);
+// console.log("new", user["is login"], user["phone list"]);
 
-// forEach
-
-// numbers.forEach(num => console.log(num))
-// for (let i = 0; i < numbers.length; i++) {
-//     console.log(numbers[i])
+// const cars = {
+//     list: [
+//         {name:"Mazda RX 7", price: 4500, year: 2002, color: "red"},
+//         {name:"VAZ 101", price: 5000, year: 2010, color: "blue"},
+//         {name:"Volvo", price: 4700, year: 2012, color: "red"},
+//         {name:"WV Golf 4", price: 6500, year: 2022, color: "yellow"},
+//         {name:"Mazda R 3", price: 2500, year: 1999, color: "white"},
+//         {name:"Audi q4", price: 4600, year: 2007, color: "red"},
+//     ]
 // }
 
-// filter
-
-// const newArr = numbers.filter(num => num > 2)
-//
-// const filterArray = (arr) => {
-//     let newArray = []
-//     for (let i = 0; i < arr.length; i++) {
-//         if(arr[i] > 2) {
-//             newArray.push(arr[i])
-//         }
-//     }
-//     return newArray
-// }
-
-// reduce
-
-// const val = numbers.reduce((previousValue, currentValue) => previousValue + currentValue)
-
-// const reduce = (arr) => {
-//     let result = 0
-//     for (let i = 0; i < arr.length; i++) {
-//         if (arr[i] % 2 === 1) {
-//             result += arr[i]
-//         }
-//     }
-//     return result
-// }
-
-// console.log(val)
-
-// map
-
-// const newArray = numbers.map(num => num * 2)
-//
-// const map = (arr) => {
-//     let resultArray = []
-//     for (let i = 0; i < number.length; i++) {
-//         console.log("item", number[i])
-//         console.log("index", i)
-//     }
-// //     return resultArray;
-// // }
-// //
-// // console.log(numbers)
-// // console.log(newArray)
-//
-// const number = [1,2,3]
-//
-// numbers.forEach(num=> console.log(num))
-//
-// for (let i=(1+2+3)/2){
-//     console.log (numbers[i])
-//
-// }
-// function factorial(i) {
-//     if (i === 0) {
-//         return 1;
-//     } else {
-//         return i * factorial(i - 1)
-//     }
-// }
-
-// console.log(factorial(7))
-
-// function fibonacci(n) {
-//     if (n <= 1) {
-//         return n
-//     } else  {
-//         console.log(n)
-//         return fibonacci(n - 1) + fibonacci(n - 2)
-//     }
-// }
-// console.log(fibonacci(20 ))
 
